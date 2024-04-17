@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace EstructuraDatos.pry
 {
-    public partial class Form1 : Form
+    public partial class frmArbolBinario : Form
     {
-        public Form1()
+        public frmArbolBinario()
         {
             InitializeComponent();
         }
