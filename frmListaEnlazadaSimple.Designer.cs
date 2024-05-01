@@ -52,20 +52,20 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.label4.Location = new System.Drawing.Point(340, 28);
+            this.label4.Location = new System.Drawing.Point(11, 241);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(73, 22);
+            this.label4.Size = new System.Drawing.Size(118, 44);
             this.label4.TabIndex = 21;
-            this.label4.Text = "Listado:";
+            this.label4.Text = "Seleccione \r\npara eliminar:";
             // 
             // cmbListado
             // 
             this.cmbListado.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cmbListado.FormattingEnabled = true;
-            this.cmbListado.Location = new System.Drawing.Point(490, 27);
+            this.cmbListado.Location = new System.Drawing.Point(166, 255);
             this.cmbListado.Name = "cmbListado";
-            this.cmbListado.Size = new System.Drawing.Size(244, 28);
+            this.cmbListado.Size = new System.Drawing.Size(161, 28);
             this.cmbListado.TabIndex = 20;
             this.cmbListado.SelectedIndexChanged += new System.EventHandler(this.cmbListado_SelectedIndexChanged);
             // 
@@ -73,10 +73,10 @@
             // 
             this.lstListar.FormattingEnabled = true;
             this.lstListar.ItemHeight = 20;
-            this.lstListar.Location = new System.Drawing.Point(344, 73);
+            this.lstListar.Location = new System.Drawing.Point(344, 33);
             this.lstListar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.lstListar.Name = "lstListar";
-            this.lstListar.Size = new System.Drawing.Size(390, 184);
+            this.lstListar.Size = new System.Drawing.Size(390, 304);
             this.lstListar.TabIndex = 19;
             // 
             // dgvGrilla
@@ -86,11 +86,11 @@
             this.Column2,
             this.Column1,
             this.Column3});
-            this.dgvGrilla.Location = new System.Drawing.Point(13, 267);
+            this.dgvGrilla.Location = new System.Drawing.Point(13, 347);
             this.dgvGrilla.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.dgvGrilla.Name = "dgvGrilla";
             this.dgvGrilla.RowHeadersWidth = 62;
-            this.dgvGrilla.Size = new System.Drawing.Size(721, 231);
+            this.dgvGrilla.Size = new System.Drawing.Size(721, 255);
             this.dgvGrilla.TabIndex = 18;
             // 
             // Column2
@@ -122,7 +122,6 @@
             // 
             // groupBox2
             // 
-            this.groupBox2.Controls.Add(this.btnEliminar);
             this.groupBox2.Controls.Add(this.btnAgregar);
             this.groupBox2.Controls.Add(this.txtTramite);
             this.groupBox2.Controls.Add(this.label3);
@@ -134,7 +133,7 @@
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 5, 4, 5);
-            this.groupBox2.Size = new System.Drawing.Size(314, 244);
+            this.groupBox2.Size = new System.Drawing.Size(314, 218);
             this.groupBox2.TabIndex = 17;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Nuevo Elemento";
@@ -143,7 +142,7 @@
             // 
             this.btnEliminar.Enabled = false;
             this.btnEliminar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.btnEliminar.Location = new System.Drawing.Point(185, 175);
+            this.btnEliminar.Location = new System.Drawing.Point(198, 295);
             this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(116, 42);
@@ -155,7 +154,7 @@
             // btnAgregar
             // 
             this.btnAgregar.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F);
-            this.btnAgregar.Location = new System.Drawing.Point(13, 175);
+            this.btnAgregar.Location = new System.Drawing.Point(185, 163);
             this.btnAgregar.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.btnAgregar.Name = "btnAgregar";
             this.btnAgregar.Size = new System.Drawing.Size(116, 42);
@@ -228,7 +227,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(745, 511);
+            this.ClientSize = new System.Drawing.Size(745, 614);
+            this.Controls.Add(this.btnEliminar);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.cmbListado);
             this.Controls.Add(this.lstListar);
