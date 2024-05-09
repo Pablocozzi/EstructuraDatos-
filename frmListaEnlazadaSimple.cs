@@ -74,9 +74,6 @@ namespace EstructuraDatos.pry
             listaSimple.CompletarCombo(cmbListado);
 
             MessageBox.Show("Codigo eliminado: " + nodoSeleccionado.ToString());
-
-
-
         }
 
         
@@ -84,6 +81,11 @@ namespace EstructuraDatos.pry
         {
             nodoSeleccionado = (Int32)cmbListado.SelectedItem;
              
+        }
+
+        private void frmListaEnlazadaSimple_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

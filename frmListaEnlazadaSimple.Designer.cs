@@ -239,6 +239,7 @@
             this.Name = "frmListaEnlazadaSimple";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Lista enlazada simple";
+            this.Load += new System.EventHandler(this.frmListaEnlazadaSimple_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dgvGrilla)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
